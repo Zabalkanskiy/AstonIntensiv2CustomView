@@ -26,4 +26,13 @@ class CustomViewViewModel(customViewRepository: CustomViewRepository): ViewModel
     }
 
     fun getPlaceHolderUrl(): String = repository.urlPlaceHolder
+
+    fun getRotateSceen():Boolean = repository.rotateScreen
+
+    fun setRotateScreenFalse(){
+        repository.rotateScreen = false
+    }
+    fun setRotateScreenTrue(){
+        repository.rotateScreen = true
+    }
 }

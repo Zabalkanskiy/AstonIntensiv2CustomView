@@ -8,4 +8,6 @@ class CustomViewRepository {
     var finalAngle = 0f
 
     val urlPlaceHolder = "https://loremflickr.com/640/360"
+
+    var rotateScreen: Boolean = true
 }
